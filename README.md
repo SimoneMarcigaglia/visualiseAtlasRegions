@@ -9,7 +9,7 @@ Create Surface plot of brain region annotated in Allen mouse brain atlas by ID.
  - Download an nrrd file reader such as this [one](https://nl.mathworks.com/matlabcentral/fileexchange/34653-nrrd-format-file-reader).
  
  
-##Usage
+## Usage
 
 Check out *exampleUsage.m* for an example of how to create a plot or an animation. The creation 
 of each surface with *isosurface* can take some time and be quite computationally expensive (on RAM usage especially).
@@ -18,6 +18,6 @@ but will be the best looking.
 
 The spreadsheet *Annotated regions list.xlsx* can be used to quickly look up the id of the region(s) to be displayed.
 
-##Example
+## Example
 
 ![example animation](animation.gif)
