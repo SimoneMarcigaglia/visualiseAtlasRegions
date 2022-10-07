@@ -1,6 +1,6 @@
 %EXAMPLE PLOT - 2 brain regions in different colours
 atlasFolder = '.\ccf2017';
-atlasResolution = 10;
+atlasResolution = 100; %available resolutions are 10,25,50 and 100 microns
 
 
 st = readtable(fullfile(atlasFolder,'structure_tree_safe_2017.csv'));
@@ -50,8 +50,8 @@ set(gca, 'Color', 'w');
 set(gcf, 'Color', 'w');
 
 fig = gcf;
-figName = '3D plot.fig';
-savefig(fig,figName);
+figName = '3D plot.png';
+saveas(fig,figName);
 
 
 
