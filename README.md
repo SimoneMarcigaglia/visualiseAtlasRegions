@@ -21,3 +21,11 @@ The spreadsheet *Annotated regions list.xlsx* can be used to quickly look up the
 ## Example
 
 ![example animation](animation.gif)
+
+
+## Optimisation
+The function *plotRegionByID* recalculates the brain surface every time it is called with the parameter *plotBrain* = 1 or missing. If a recalculation is not necessary (this can take a long time for the 10um atlas), the surface features can be extracted from the function itself, stored locally and fed back to *plotRegionByID*. Run 
+'''
+help plotRegionByID
+'''
+for details.

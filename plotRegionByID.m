@@ -1,4 +1,4 @@
-function [pBrain, pRegion, fRegion, vRegion] = plotRegionByID(av, st, targetId, optionalArgs)
+function [pBrain, pRegion, fBrain, vBrain, fRegion, vRegion] = plotRegionByID(av, st, targetId, optionalArgs)
 %% PLOTREGIONBYID Creates 3-dimensional surface based on annotated volume 
 % of Allen Atlas. 
 % Usage:
